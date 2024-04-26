@@ -1,31 +1,32 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="portfolio.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
-
-    <div class="container min-h-screen bg-gradient-to-r from-slate-500 to-slate-900 px-28 py-5 relative">
-        <nav class="flex items-center">
-            <img src="img/logo.jpg" alt="my logo" class="w-40 cursor-pointer">
-            <ul class="flex-1 text-centre   md:flex-x-10">
-                <li class="list-none inline-block px-5"><a href="#home" class="no-underline text-white px-2">Home</a></li>
-                <li class="list-none inline-block px-5"><a href="#about" class="no-underline text-white px-2">About Me</a></li>
-                <li class="list-none inline-block px-5"><a href="#contact" class="no-underline text-white px-2">Contact Me</a></li>
-            </ul>
+<body class="font-nunito">
+    <div class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 ">
+        <nav class="w-full fixed top-0 bg-white">
+            <div class="container mx-auto py-5 flex justify-between">
+                <div class="flex items-center gap-5">
+                    <img class="w-8" src="img/logo.png" alt="">
+                    <span class="text-2xl font-bold text-indigo-900">Kevin Kirai</span>
+                </div>
+                <ul class="hidden md:flex space-x-10 items-center text-gray-600 font-bold text-sm uppercase">
+                    <li class="hover:text-blue-400"><a href="#">homepage</a></li>
+                    <li class="hover:text-blue-400"><a href="#">about me</a></li>
+                    <li class="hover:text-blue-400"><a href="#">projects</a></li>
+                    <li class="hover:text-blue-400"><a href="#">plans</a></li>
+                    <li class="hover:text-blue-400"><a href="#">contact</a></li>
+                </ul>
+                <img src="img/moon.png" class="hidden md:block w-5 cursor-pointer" alt="">
+            </div>
         </nav>
-
-        <div class="text-white mt-48 max-w-xl">
-            <h1 class="text-6xl font-semibold leading-normal">Hi 👋🏽 , <span class="whitespace-nowrap">i'm Kevin Kirai</span></h1>
-            <p>Welcome to my world!</p>
-            <img src="img/profile4.jpg" alt="My Profile" class="w-full xl:w-1/2 xl:absolute bottom-0 right-20 ">
-        </div>
     </div>
-    
 </body>
 </html>
